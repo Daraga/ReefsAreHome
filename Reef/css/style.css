@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:400,400i,700,700i&display=swap');
+
+.logo {
+    width: 200px;
+    overflow: scroll;
+}
+
+img,
+video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.logo {
+    width: 150px;
+    /*    height: auto;*/
+    /*    max-width: 5%;*/
+
+}
+
+a:visited {
+    color: red;
+}
+
+.navbar a {
+
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px 2px;
+    text-decoration: none;
+    /*  font-size: 1.5rem;*/
+    /*    font-size: 1.8vw;*/
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+main {
+    padding: 16px;
+    margin-top: 30px;
+}
+
+body {
+    margin: 0;
+    font-size: 2vw;
+    /*  font-size: 1.5rem;*/
+    background-color: coral;
+    font-family: 'Myriad Pro', serif;
+    color: black;
+
+}
+
+
+h1 {
+    padding-top: 120px;
+    font-weight: 700;
+    font-size: 7vw;
+    /*  font-size: 7rem;*/
+    text-align: center;
+    font-family: 'Garamond';
+
+}
+
+h2 {
+    /*  font-size: 3.0rem;*/
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 3vw;
+    /*
+    margin-left: 10%;
+    margin-right: 10%;
+*/
+}
+
+
+
+ul li {
+    padding: 5px 0px;
+
+}
+
+.attractor {
+    text-align: center;
+    font-style: italic;
+    /*   width: 50%; */
+}
+
+.intro {
+    text-align: center;
+    font-style: italic;
+}
+
+.categories {
+    grid-column-start: 1;
+    grid-column-end: ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border-bottom: 5px solid lightblue;
+
+}
+
+.products {
+    grid-column-start: 1;
+    grid-column-end: ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border-bottom: 5px solid lightblue;
+}
+
+/*
+.facts {
+    border-bottom: 5px solid yellow;
+}
+
+.blank {
+    border-bottom: 5px solid yellow;
+}
+*/
+
+.catTitle {
+    text-align: center
+}
+
+.catText {
+    text-align: center
+}
+
+.table {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.videos {
+    list-style: none
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+
+}
+
+.video-responsive iframe {
+    /*    left:0;*/
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.quantity {
+    border-style: solid;
+}
+
+label {
+    display: block;
+    font: 10rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    font-size: 2rem;
+    margin: 14rem 100;
+}
+
+.productText {
+    text-align: center;
+    vertical-align: left;
+    /*    padding: 1px;*/
+}
+
+.productTitle {
+    text-align: center;
+    vertical-align: middle;
+}
